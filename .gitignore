@@ -1,5 +1,5 @@
 .vscode
-data/*
+# data/*
 dumps/*
 figs/*
 .ipynb_checkpoints
