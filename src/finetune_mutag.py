@@ -21,11 +21,11 @@ except BaseException as e:
     from tensorboardX import SummaryWriter
 from dataset import Sampler, EdgeSeqDataset, GraphAdjDataset
 from utils import anneal_fn, get_enc_len, load_data, get_best_epochs, get_linear_schedule_with_warmup
-from mlp import MLP
+# from mlp import MLP
 from rnn import RNN
-from transformerxl import TXL
+from txl import TXL
 from cnn import CNN
-from resnet import ResNet
+#from resnet import ResNet
 from rgcn import RGCN
 from rgin import RGIN
 from rsin import RSIN
