@@ -28,7 +28,7 @@ from cnn import CNN
 #from resnet import ResNet
 from rgcn import RGCN
 from rgin import RGIN
-from rsin import RSIN
+# from rsin import RSIN
 from train import train, evaluate
 
 warnings.filterwarnings("ignore")
